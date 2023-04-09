@@ -23,7 +23,7 @@ export const CampoSelect = (props) => {
                 onChange={valorDigitado} 
                 required
             > 
-                <option defaultValue hidden>Selecione uma opção</option>
+                <option defaultValue value="" hidden>Selecione uma opção</option>
                 {props.itens.map(item => 
                     <option 
                         key={item.tag}
