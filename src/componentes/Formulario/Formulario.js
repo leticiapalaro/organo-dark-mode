@@ -12,19 +12,19 @@ export const Formulario = (props) => {
     const [cargo, setCargo] = useState('')
     const [foto, setFoto] = useState('https://')
     const [time, setTime] = useState('')
-    
+
     const enviarFormulario = (evento) => {
         
 		// Previnindo a ação de recarregar a página do navegador.
 		evento.preventDefault()
-        
+
 		// Usando a função novoColaborador() do '../App.js' para setar um novo membro.
 		props.novoColaborador({
-            nome,
-            cargo,
-            foto,
-            time
-        })
+			nome,
+			cargo,
+			foto,
+			time
+		})
 
 		// Depois que o ovo membro foi adicionado, limpando as constantes do formulário.
 		// Para garantir que os campos estejam em branco no caso de uma nova adição.
