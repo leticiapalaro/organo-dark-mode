@@ -10,7 +10,7 @@ export const Formulario = (props) => {
 
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
-    const [foto, setFoto] = useState('')
+    const [foto, setFoto] = useState('https://')
     const [time, setTime] = useState('')
     
     const enviarFormulario = (evento) => {
@@ -30,7 +30,7 @@ export const Formulario = (props) => {
 		// Para garantir que os campos estejam em branco no caso de uma nova adição.
         setNome('')
         setCargo('')
-        setFoto('')
+        setFoto('https//')
         setTime('')
 
     }
