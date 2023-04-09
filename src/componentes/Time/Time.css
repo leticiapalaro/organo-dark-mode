@@ -1,0 +1,27 @@
+.time {
+
+    background-color: var(--cinza-claro-azulado);
+    
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem auto;
+    
+    width: 90vw;
+
+    max-width: 90%;
+
+}
+
+.time__nome-time {
+
+    border-radius: 50%;
+    
+}
+
+.membros {
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+}

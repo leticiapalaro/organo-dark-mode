@@ -1,0 +1,36 @@
+.botao__submit {
+
+    background-color: var(--roxo);
+    
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: 1rem;
+    
+    cursor: pointer;
+    
+    color: var(--cinza-claro-azulado);
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+}
+
+.botao__submit:hover {
+    background-color: black;
+}
+
+@media (min-width: 1360px){
+
+    .botao{
+        
+        text-align: right;
+        
+        width: 45vw;
+        margin: auto;
+        
+    }
+
+}

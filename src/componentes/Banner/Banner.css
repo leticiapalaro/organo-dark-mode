@@ -1,0 +1,45 @@
+.banner {
+
+    background-color: var(--roxo);
+
+}
+
+.banner__principal {
+
+    display: none;
+}
+
+.banner__mobile {
+
+    height: 20vh;
+    max-width: 100%;
+
+}
+
+@media (min-width: 480px){
+
+    .banner__principal {
+
+        display: inline;
+        height: 30vh;
+        max-width: 100%;
+
+    }
+
+    .banner__mobile {
+
+        display: none;
+
+    }
+    
+}
+
+@media (min-width: 1360px){
+    
+    .banner__principal {
+
+        height: 40vh;
+
+    }
+    
+}
