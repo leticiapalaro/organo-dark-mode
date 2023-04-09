@@ -1,6 +1,6 @@
 .footer {
 
-	height: 15vh;
+	height: 10vh;
 	width: 100vw;
 	background: url('../../../public/img/fundo.png');
 	background-size: 50vh;
@@ -14,32 +14,29 @@
 
 .footer__img__logo {
 
-	height: 5vh;
-	padding: 1vw;
+	height: 4vh;
 	margin: 0;
-
-}
-
-.footer__img__descrição {
-
-	padding: 1vw;
-	color: #90929E;
 
 }
 
 .footer__assinatura {
 
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	margin: 0;
 
 }
 
+.footer__assinatura__descricao {
+
+	color: #90929E;
+
+}
+
 .footer__assinatura__img {
 
-	height: 4vh;
-	padding: 1vw;
+	height: 3vh;
 
 }
 
@@ -50,8 +47,14 @@
 		height: 8vh;
 		display: flex;
 		align-items: center;
-		justify-content: center;
+		justify-content: space-evenly;
 
+	}
+
+	.footer__assinatura__img {
+
+		margin-left: 1rem;
+		
 	}
 
 }

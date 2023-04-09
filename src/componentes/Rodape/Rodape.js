@@ -10,7 +10,7 @@ export const Rodape = () => {
 				alt="Logo do Organo"
 			/>
 			<div className="footer__assinatura">
-				<p className="footer__img__descrição">Dark Mode por Letícia Palaro</p>
+				<p className="footer__assinatura__descricao">Dark Mode por Letícia Palaro</p>
 				<a href="https://www.linkedin.com/in/leticiapalaro/">
 					<img 
 						className="footer__assinatura__img" 
