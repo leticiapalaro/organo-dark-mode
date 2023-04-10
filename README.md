@@ -1,3 +1,12 @@
+<img src="https://github.com/leticiapalaro/organo-dark-mode/blob/main/public/img/organo/vers%C3%A3oreposit%C3%B3rio.png?raw=true">
+<img src="https://github.com/leticiapalaro/organo-dark-mode/blob/main/public/img/organo/Slide2.PNG?raw=true">
+<img src="https://github.com/leticiapalaro/organo-dark-mode/blob/main/public/img/organo/Slide3.PNG?raw=true">
+
+<div align="center">  
+  <img height="200vh" src="https://github.com/leticiapalaro/leticiapalaro/blob/main/ok.gif?raw=true"><br>  <a href="https://www.linkedin.com/in/leticiapalaro/" target="_blank"><img height="25vh" src="https://github.com/leticiapalaro/leticiapalaro/blob/main/linkedin.png?raw=true" target="_blank"></a>
+  <a href = "mailto:leticiapalaro@live.com"><img height="25vh" src="https://github.com/leticiapalaro/leticiapalaro/blob/main/contato.png?raw=true" target="_blank"></a><br>
+</div>
+
 # Create React App
 
 This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
